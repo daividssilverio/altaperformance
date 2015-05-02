@@ -16,7 +16,9 @@
 	<modules>
 		<module>altaperformance-geral</module>
 		<module>altaperformance-micro</module>
-		<module>altaperformance-micro-contiperf</module>		
+		<module>altaperformance-micro-contiperf</module>
+		<module>agent</module>
+		<module>spring-petclinic</module>			
 	</modules>
 
 	<build>
