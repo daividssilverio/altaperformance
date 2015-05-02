@@ -1,7 +1,6 @@
-package com.wordpress.alissonpedrina.altaperformance.string;
+package com.wordpress.alissonpedrina.altaperformance.micro;
 
 import java.util.LinkedList;
-
 
 /**
  * Rode este programa com o jdk 8 e com as flags
