@@ -18,7 +18,7 @@ public class CollectionsBenchmark {
 	public void deveInserirElementosEmArrayList() {
 		List<String> arrayList = new ArrayList<>();
 
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 1000; i++) {
 			arrayList.add("valor" + i);
 		}
 	}
