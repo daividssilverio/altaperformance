@@ -16,7 +16,9 @@
 	<modules>
 		<module>altaperformance-geral</module>
 		<module>altaperformance-micro</module>
-		<module>altaperformance-micro-contiperf</module>		
+		<module>altaperformance-micro-contiperf</module>
+		<module>agent</module>
+		<module>spring-petclinic</module>			
 	</modules>
 
 	<build>
@@ -95,8 +97,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 
