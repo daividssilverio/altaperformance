@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class MicroBenchmarkNormal {
 
-	private int nLoops = 100;
+	private int nLoops = 1000;
 	private int numero = 100;
 	
 	@Test
@@ -22,14 +22,14 @@ public class MicroBenchmarkNormal {
 	
 	@Test
 	public void testeComUso() {
-		double l;
+		double l = 0;
 		long tempoInicial = System.currentTimeMillis();
 
 		for (int i = 0; i < nLoops; i++) {
-			System.out.println(l = executa(numero));
+			l = executa(numero);
 		}
 		long tempoFinal = System.currentTimeMillis();
-		System.out.println("Tempo decorrido para teste com uso:" + Math.abs(tempoInicial - tempoFinal));
+		System.out.println("Tempo decorrido para teste com uso:" + Math.abs(tempoInicial - tempoFinal) + "" +l);
 	}
 
 	private double executa(int numero) {

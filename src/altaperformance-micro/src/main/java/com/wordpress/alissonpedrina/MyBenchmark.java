@@ -28,7 +28,17 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-
+/**
+ *  mvn archetype:generate \
+          -DinteractiveMode=false \
+          -DarchetypeGroupId=org.openjdk.jmh \
+          -DarchetypeArtifactId=jmh-java-benchmark-archetype \
+          -DgroupId=org.sample \
+          -DartifactId=test \
+          -Dversion=1.0
+          
+          java -jar target/benchmarks.jar
+ */
 package com.wordpress.alissonpedrina;
 
 import org.openjdk.jmh.annotations.Benchmark;
