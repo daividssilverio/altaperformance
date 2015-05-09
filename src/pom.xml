@@ -14,11 +14,13 @@
 
 
 	<modules>
-		<module>altaperformance-geral</module>
-		<module>altaperformance-micro</module>
-		<module>altaperformance-micro-contiperf</module>
+		<module>geral</module>
+		<module>jmh</module>
+		<module>contiperf</module>
 		<module>agent</module>
 		<module>spring-petclinic</module>			
+		<module>agent</module>			
+		<module>classloader</module>			
 	</modules>
 
 	<build>
