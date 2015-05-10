@@ -1,4 +1,4 @@
-package com.wordpress.alissonpedrina.altaperformance.micro;
+package com.wordpress.alissonpedrina.string;
 
 import org.junit.Assert;
 import org.junit.Test;

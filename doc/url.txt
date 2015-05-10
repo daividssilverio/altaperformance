@@ -1,2 +1,8 @@
 http://www.onjava.com/pub/a/onjava/2004/10/06/asm1.html
 http://blog.markshead.com/1129/connecting-visual-vm-to-tomcat-7/
+
+http://jvm-options.tech.xebia.fr/
+http://www.pingtimeout.fr/2012/05/jvm-options-complete-reference.html
+http://stas-blogspot.blogspot.com.br/2011/07/most-complete-list-of-xx-options-for.html#ConvertYieldToSleep
+https://www.ibm.com/developerworks/java/jdk/tools/gcmv/#download
+https://github.com/chewiebug/GCViewer

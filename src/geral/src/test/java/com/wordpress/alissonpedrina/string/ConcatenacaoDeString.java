@@ -1,4 +1,4 @@
-package com.wordpress.alissonpedrina.altaperformance.micro;
+package com.wordpress.alissonpedrina.string;
 
 import org.junit.Test;
 
@@ -16,21 +16,17 @@ public class ConcatenacaoDeString {
 	
 	private String concatenador() {
 		String numeros = "";
-		
 		for (int i = 0; i < 1000; i++) {
 			numeros += i;
 		}
-		
 		return numeros;
 	}
 	
 	private String concatenadorComBuilder() {
 		StringBuilder numeros = new StringBuilder();
-		
 		for (int i = 0; i < 1000; i++) {
 			numeros.append(i);
 		}
-		
 		return numeros.toString();
 	}
 	

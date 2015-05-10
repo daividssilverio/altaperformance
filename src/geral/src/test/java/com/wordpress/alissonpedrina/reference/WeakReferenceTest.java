@@ -1,4 +1,4 @@
-package com.wordpress.alissonpedrina.altaperformance.reference;
+package com.wordpress.alissonpedrina.reference;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;

@@ -20,6 +20,7 @@
 		<module>agent</module>
 		<module>spring-petclinic</module>			
 		<module>agent</module>			
+		<module>aop</module>			
 		<module>classloader</module>			
 	</modules>
 

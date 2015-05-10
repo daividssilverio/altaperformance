@@ -7,7 +7,6 @@ import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 
 import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.Fork;
 import org.openjdk.jmh.annotations.Measurement;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Scope;
@@ -20,7 +19,6 @@ import com.google.common.base.Splitter;
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Warmup(iterations = 4, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
-@Fork(2)
 public class JavaStringSplits {
 
 	@State(Scope.Benchmark)

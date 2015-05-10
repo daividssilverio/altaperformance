@@ -1,4 +1,4 @@
-package com.wordpress.alissonpedrina.altaperformance.flags;
+package com.wordpress.alissonpedrina.flags;
 
 public class Tools {
 
