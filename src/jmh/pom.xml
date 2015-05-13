@@ -119,6 +119,30 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>1.2.1</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>java</goal>
+							</goals>
+							<configuration>
+								<arguments>
+									<argument>
+										-jar
+									</argument>
+									<argument>
+										benckmarks.jar
+									</argument>
+								</arguments>
+								<!-- <mainClass>org.sonatype.mavenbook.weather.Main</mainClass> -->
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+
+				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
 					<version>2.5</version>
 				</plugin>
