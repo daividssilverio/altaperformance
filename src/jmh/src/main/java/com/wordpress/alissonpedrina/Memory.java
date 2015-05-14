@@ -21,7 +21,7 @@ import org.openjdk.jmh.annotations.State;
 @State(Scope.Thread)
 @Fork(value = 2)
 @BenchmarkMode(Mode.AverageTime)
-public class Memoria {
+public class Memory {
 
 	private final static int ARRAY_SIZE = 64 * 1024 * 1024;
 	private int[] array = new int[ARRAY_SIZE];
