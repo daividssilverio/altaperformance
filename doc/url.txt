@@ -6,3 +6,6 @@ http://www.pingtimeout.fr/2012/05/jvm-options-complete-reference.html
 http://stas-blogspot.blogspot.com.br/2011/07/most-complete-list-of-xx-options-for.html#ConvertYieldToSleep
 https://www.ibm.com/developerworks/java/jdk/tools/gcmv/#download
 https://github.com/chewiebug/GCViewer
+
+https://github.com/headius/LogCompilation
+http://www.royvanrijn.com/blog/2013/10/building-openjdk-on-windows/
