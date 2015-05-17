@@ -10,24 +10,19 @@ import javax.servlet.http.HttpServletResponse;
 public class LeakServer extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-//	
-//	private static final String STATICNAME = "Simple";
-//	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-//	throws ServletException, IOException {
-//	}
-		
-	public LeakServer() {
-	}
+	public LeakServer() {}
 
-	private static final String STATICNAME = "This leaks!";
-	private static final Level CUSTOMLEVEL = new Level("test", 550) {
-	}; // anon class!
+	private static final String STATICNAME = "Vai vazar memória!!";
 
+	private static final Level CUSTOMLEVEL = new Level("teste", 550) {};
+
+	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		Logger.getLogger("test").log(CUSTOMLEVEL, "doGet called");
 	}
 
+	@Override
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 	}

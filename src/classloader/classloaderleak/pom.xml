@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wordpress.alissonpedrina</groupId>
 	<artifactId>classloaderleak</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>classloaderleak Maven Webapp</name>
 	<url>http://maven.apache.org</url>
