@@ -9,3 +9,24 @@ https://github.com/chewiebug/GCViewer
 
 https://github.com/headius/LogCompilation
 http://www.royvanrijn.com/blog/2013/10/building-openjdk-on-windows/
+
+jmeter
+
+http://wiki.apache.org/myfaces/PerformanceTestingWithJMeter
+
+
+ base Object class from which all classes descend? Smalltalk.
+Strong static type-checking at compile time? Ada.
+Multiple interface, single implementation inheritance? Objective-C.
+Inline documentation? CWeb.
+Cross-platform virtual machine and byte code with just-in-time compilation? Smalltalk again, especially Sun’s Self dialect.
+Garbage collection? Lisp.
+Primitive types and control structures? C.
+
+estudar
+
+http://java.dzone.com/articles/principles-java-application
+
+https://github.com/javaee-samples/javaee7-samples
+
+https://github.com/arun-gupta/javaee6-sample/tree/master/src/main/java
