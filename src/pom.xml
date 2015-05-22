@@ -16,12 +16,11 @@
 	<modules>
 		<module>geral</module>
 		<module>jmh</module>
-		<module>contiperf</module>
 		<module>agent</module>
-		<module>spring-petclinic</module>			
+		<module>demoweb</module>			
 		<module>agent</module>			
 		<module>aop</module>			
-		<module>classloader</module>			
+		<module>leakmemory</module>			
 	</modules>
 
 	<build>
