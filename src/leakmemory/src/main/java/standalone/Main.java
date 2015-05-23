@@ -1,11 +1,5 @@
 package standalone;
 
-/**
- * -XX:+HeapDumpOnOutOfMemoryError
- * 
- * @author apedrina
- *
- */
 public class Main {
 	private static IExample referenciaPermanete;
 	private static IExample referenciaClassLoadingDinamicamente;
@@ -24,7 +18,7 @@ public class Main {
 					+ referenciaClassLoadingDinamicamente.plusPlus());
 			System.out.println();
 
-			//Thread.currentThread().sleep(1000);
+			//Thread.currentThread().sleep(3000);
 		}
 	}
 }

@@ -54,6 +54,7 @@ public final class ClassLoaderLeakExample {
 			while (running) {
 				try {
 					loadAndDiscard();
+					Thread.sleep(1000);
 				} catch (Throwable ex) {
 					ex.printStackTrace();
 				}
@@ -117,25 +118,15 @@ public final class ClassLoaderLeakExample {
 				LoadedInChildClassLoader.class.getName(), true,
 				childClassLoader);
 		childClass.newInstance();
-		// When this method returns, there will be no way to reference
-		// childClassLoader or childClass at all, but they will still be
-		// rooted for GC purposes!
 	}
 
 	/**
 	 * An innocuous-looking class. Doesn't do anything interesting.
 	 */
 	public static final class LoadedInChildClassLoader {
-		// Grab a bunch of bytes. This isn't necessary for the leak, it just
-		// makes the effect visible more quickly.
-		// Note that we're really leaking these bytes, since we're effectively
-		// creating a new instance of this static final field on each iteration!
-		static final byte[] moreBytesToLeak = new byte[1024 * 1024 * 10];
-
 		private static final ThreadLocal<LoadedInChildClassLoader> threadLocal = new ThreadLocal<>();
 
 		public LoadedInChildClassLoader() {
-			// Stash a reference to this class in the ThreadLocal
 			threadLocal.set(this);
 		}
 	}
